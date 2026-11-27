@@ -6,8 +6,8 @@ import lombok.Data;
 public class Game {
     private long gameId;
     private Long userId;
-    private Integer day;
-    private String status;
+    private Integer day;     // 経過日数
+    private String status;   // ゲームの進行状態　※朝昼晩など
     private Integer meetingTurn;
     private String result;
 }
